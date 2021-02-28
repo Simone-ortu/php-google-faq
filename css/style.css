@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.blue{
+    border-bottom: 5px solid #0059ff;
+    color: #0059ff;
+    padding-right: 20px;
+}
+header{
+    width: 100vw;
+    height: 100px;
+}
+.logo{
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+header h3{
+    display: inline;
+}
+header ul li{
+    margin-top: 30px;
+    margin-right: 25px;
+    list-style: none;
+    display: inline-block;
+}
+header ul li a{
+    color: black;
+    text-decoration: none;
+    
+}
+main{
+    width: 60%;
+    margin: 100px auto;
+}
+main p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+main ol.alpha{
+    list-style-type: lower-alpha;
+    padding-left: 50px;
+}
